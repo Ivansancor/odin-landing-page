@@ -6,21 +6,40 @@ html {
     padding: 0;
     list-style-type: none;
     font-family: Roboto, sans-serif;
-    font-size: 10px;
+    font-size: 12px;
 }
-
 header {
     display: flex;
     justify-content: space-between;
-    margin: 0 48px;
+    margin: 10px 200px;
+    height: 6vh;
 }
 header h1 {
-    font-size: 12px;
+    font-size: 14px;
 }
-
+header ul {
+    display: flex;
+}
 header li {
     margin-left: 12px;
 }
 .section-one {
-    
+    display: flex
+    height: 22vh;
+}
+.section-two {
+    display: flex;
+    height: 22vh;
+}
+.section-three {
+    height: 22vh;
+}
+.section-four {
+    display: flex;
+    height: 22 vh;
+}
+footer {
+    height: 6vh;
+    text-align: center;
+    margin: 10px 0;
 }
