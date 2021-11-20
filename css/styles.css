@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    background-color: whitesmoke;
 }
 * {
     margin: 0;
@@ -13,12 +14,16 @@ a {
     color: white;
 }
 button {
-    background-color: lightslategray;
+    background-color: cornflowerblue;
     color: white;
     text-align: center;
-    height: 28px;
+    font-weight: bold;
+    font-size: 16px;
+    height: 30px;
     width: 100px;
+    border: 2px solid white;
     border-radius: 10px;
+    padding: 5px 10px;
 }
 header {
     display: flex;
@@ -62,7 +67,7 @@ header li {
     justify-content: center;
     align-items: center;
     flex: 1;
-    background-color: grey;
+    background-color: lightblue;
 }
 .section-two {
     height: 200px;
@@ -117,11 +122,30 @@ header li {
 .section-four {
     display: flex;
     height: 200px;
+    padding: 0 200px;
+    justify-content: center;
+    align-items: center;
+}
+.floating-container {
+    background-color:cornflowerblue;
+    height: 100px;
+    display: flex;
+    flex: 1;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    border-radius: 10px;
+}
+.section-four h3 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 footer {
     height: 30px;
     text-align: center;
     background-color: darkblue;
     color: white;
-    padding: 20px 0;
+    padding-top: 15px;
 }
